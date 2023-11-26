@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
 
-      <Navbar logo={Youtube} />
+      <Navbar  />
       {
         console.log(Youtube)
       }
