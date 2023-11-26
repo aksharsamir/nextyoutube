@@ -1,4 +1,5 @@
-export default function Navbar(props) {
+import img from "next/image"
+export default function Navbar() {
   return (
     <section className='pt-[7px]'>
       <div className='columns-3'>
@@ -11,8 +12,7 @@ export default function Navbar(props) {
             </button>
           </div>
           <div className='inline'>
-            <img src={props.logo} className="logo inline" alt="Logo" />
-            {/* <img sr className="logo inline" alt="Logo" /> */}
+            <img src="youtube.svg" className="logo inline" alt="Logo" />
           </div>
         </div>
 
