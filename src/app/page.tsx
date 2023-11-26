@@ -11,10 +11,6 @@ export default function App() {
     <>
 
       <Navbar  />
-      {
-        console.log(Youtube)
-      }
-
       <div>
 
         <div className='w-[20%] float-left'>
